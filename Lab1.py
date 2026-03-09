@@ -12,7 +12,7 @@ print(marks)
 total_marks = np.sum(marks, axis=1)
 print("\nTotal marks of each student:")
 print(total_marks)
-
+# here giving  the bonus for student 
 bonus_marks = marks * 2
 print("\nMarks after bonus (doubled):")
 print(bonus_marks)
